@@ -1,0 +1,109 @@
+
+body {
+  font-family: times new roman;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: #000;
+  padding: 20px;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav ul li {
+  display: inline;
+}
+
+nav ul li a {
+  color: #FFFFFF;
+  text-decoration: none;
+  margin-right: 10px;
+}
+
+.hero {
+  background-color: #e4a0f7;
+  background-image: url('travel.jpg');
+  background-size: cover;
+  background-position: center;
+  height: 500px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.hero-content {
+  text-align: center;
+  color: #000;
+}
+
+.hero-content h1 {
+  font-size: 40px;
+  margin-bottom: 20px;
+}
+
+.btn {
+  background-color: #333;
+  color: #fff;
+  padding: 10px 20px;
+  text-decoration: none;
+}
+
+.destinations {
+  padding: 100px;
+}
+
+.destinations h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.destination-card {
+  display: inline-block;
+  width: 300px;
+  margin-right: 20px;
+}
+
+.destination-card img {
+  width: 100%;
+}
+
+.destination-card h3 {
+  margin-top: 10px;
+}
+
+.packages {
+  background-color: #f5f5f5;
+  padding: 50px;
+}
+
+.packages h2 {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.package-card {
+  display: inline-block;
+  width: 300px;
+  margin-right: 20px;
+}
+
+.package-card img {
+  width: 100%;
+}
+
+.package-card h3 {
+  margin-top: 20px;
+}
+
+footer {
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+}
